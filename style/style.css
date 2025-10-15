@@ -88,7 +88,11 @@ main{
     margin: 0 auto;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 70px;
+   
+}
+main section{
+     margin-top: 70px;
+     margin-bottom: 70px;
 }
 .item-desptiom{
     font-weight: 600;
@@ -96,4 +100,19 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+.skils-conteiner{
+    display: flex;
+    gap: 24px;
+}
+.skil{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skil ig{
+    text-align:right;
 }
